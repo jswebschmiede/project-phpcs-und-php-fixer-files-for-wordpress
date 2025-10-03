@@ -1,14 +1,10 @@
 {
-    // Editor: automatisch beim Speichern formatieren
     "editor.formatOnSave": true,
 
-    // PHPCS: Standard auf WordPress setzen
     "phpcs.standard": "WordPress",
 
-    // Pfad zu globalem phpcs + phpcbf (Windows)
     "phpcs.executablePath": "C:\\Users\\Joerg\\AppData\\Roaming\\Composer\\vendor\\bin\\phpcs.bat",
 
-    // Dateien/Ordner ausschließen
     "files.exclude": {
         "**/node_modules": true,
         "**/vendor": true,
@@ -17,7 +13,6 @@
         "**/tests": true
     },
 
-    // Standard-Formatter für PHP setzen
     "[php]": {
         "editor.defaultFormatter": "junstyle.php-cs-fixer"
     },
@@ -30,3 +25,4 @@
     "php-cs-fixer.pathMode": "override",
     "php-cs-fixer.documentFormattingProvider": true
 }
+
